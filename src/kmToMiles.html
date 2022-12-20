@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+<head >
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Convert to Miles</title>
 </head>
-<body>
-            <input type="number" name="km" id="km">
 
-            <input type="number" name="km" id="km">
+<body style="background-color: azure;">
+            <div style="padding: 10px;">
+                        <input type="number" id="km" required placeholder="km">
+            </div>
+            <div style="padding: 10px;">
+                        <button type="button" id="convert" class="btn">Convert to Miles</button>
+            </div>
+            <div style="padding: 10px;">
+                        <b>
+                                    Result: <p id="result"></p>
+                        </b>
+            </div>
+            <script>
+                        document.getElementById("convert").onclick = function () {
+                                    var km = document.getElementById("km").value;
+                                    var miles = 1.609344;
+                                    if (km > 0) {
+                                                miles = km / miles;
+                                                miles = miles.toFixed(5);
+                                                document.getElementById("result").innerHTML = km + ' km equals to = ' + ' ' + miles +
+                                                            ' miles';
+                                    } else {
+                                                document.getElementById("result").innerHTML =
+                                                            'Enter the positive number, pls';
 
-
+                                    }
+                        }
+            </script>
 </body>
+
 </html>
