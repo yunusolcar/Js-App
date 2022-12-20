@@ -1,4 +1,4 @@
-# Js Clock App
+# 1- Js Clock App
 JavaScript ile yapmış olduğum saat uygulaması. Saat gerçek zamanlı olarak bilgisayarınızın gösterdiği saat ile senkronize çalışmaktadır.
 
 
