@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Counter w/Js</title>
+</head>
+
+<body style="background-color: rgb(138, 170, 197);">
+            <div>
+                        <form>
+                                    <input type="button" id="result" style="width: 413px; height: 100px;" value="0">
+                                    <br><br>
+                                    <input type="button" onclick="increase()"
+                                                style="width: 100px; height: 100px; background-color: rgb(192, 250, 192);"
+                                                value="Increase">
+                                    <input type="button" onclick="tenIncrease()"
+                                                style="width: 100px; height: 100px; background-color: rgb(192, 250, 192);"
+                                                value="+10 Increase">
+                                    <input type="button" onclick="decrease()"
+                                                style="width: 100px; height: 100px; background-color: rgb(250, 156, 156);"
+                                                value="Decrease">
+                                    <input type="button" onclick="tenDecrease()"
+                                                style="width: 100px; height: 100px; background-color: rgb(250, 156, 156);"
+                                                value="-10 Decrease">
+
+                        </form>
+            </div>
+            <script>
+                        function increase() {
+                                    var result = document.getElementById("result");
+                                    result.value = Number(result.value) + 1;
+                        }
+
+                        function tenIncrease() {
+                                    var result = document.getElementById("result");
+                                    result.value = Number(result.value) + 10;
+                        }
+
+                        function decrease() {
+                                    var result = document.getElementById("result");
+                                    result.value = Number(result.value) - 1;
+                        }
+
+                        function tenDecrease() {
+                                    var result = document.getElementById("result");
+                                    result.value = Number(result.value) - 10;
+                        }
+            </script>
+</body>
+
+</html>
