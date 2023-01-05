@@ -10,5 +10,5 @@ JavaScript ile yapmış olduğum saat uygulaması. Saat gerçek zamanlı olarak 
 ![image](https://user-images.githubusercontent.com/94309613/208976094-155e282f-7204-45eb-aa6b-7de514795af2.png)
 # 4- Counter Example
 ![image](https://user-images.githubusercontent.com/94309613/209143680-208e2557-ccc9-4c45-a021-9af379384bb4.png)
-#5 -Simple Calculator
+# 5-Simple Calculator
 ![image](https://user-images.githubusercontent.com/94309613/210834690-a7d241c2-c564-4bac-bf98-71312f76657d.png)
