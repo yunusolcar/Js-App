@@ -112,18 +112,18 @@ body {
 
 .clock .hand.second {
     width: 3px;
-    height: 45%;
-    background-color: red;
+    height: 40%;
+    background-color: rgb(155, 58, 58);
 }
 
 .clock .hand.minute {
-    width: 7px;
+    width: 8px;
     height: 40%;
-    background-color: black;
+    background-color: rgb(4, 4, 21);
 }
 
 .clock .hand.hour {
-    width: 10px;
-    height: 35%;
-    background-color: blue;
+    width: 8px;
+    height: 30%;
+    background-color: rgb(4, 4, 36);
 }
