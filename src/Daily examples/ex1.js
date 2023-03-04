@@ -1,4 +1,3 @@
-
 var year = prompt("Lütfen doğum yılınızı giriniz");
 
 var dayYear = new Date();
